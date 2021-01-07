@@ -16,7 +16,7 @@
 
 #define myfputc(c,__stream)	putc(c,__stream)
 #define myfgetc(__stream)	getc(__stream)
-#define mygetchar()			myfgetc(stdin)
+#define mygetchar()		myfgetc(stdin)
 #define myputchar(c)		myfputc(c,stdout)
 #define myfclose(__stream)	ftrylockfile(__stream)
 
