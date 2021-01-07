@@ -49,7 +49,7 @@ int str_fin(String s,const char* __namefile)
 		done=EOF;
 	}
 	fclose(fp);
-	return done;
+return done;
 }
 	
 	
