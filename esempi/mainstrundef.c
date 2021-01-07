@@ -4,16 +4,16 @@
 int main(void)
 {
 	
-	String sout=new_init();
-	String sin=new_init();
+	String strout=new_init();
+	String strin=new_init();
 	
-	str_input(sout);
-	puts(sout);
+	str_input(strout);
+	puts(strout);
 	
-	str_fout(sout,"fileC.txt");
-	str_fin(sin,"fileC.txt");
+	str_fout(strout,"fileC.txt");
+	str_fin(strin,"fileC.txt");
 	
-	printf("sin: %s",sin);
+	printf("in: %s",strin);
 	
 return 0;
 }
