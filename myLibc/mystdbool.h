@@ -10,7 +10,7 @@
 #		define _myBool int8_t 
 		typedef _myBool mybool;
 #		define TRUE	1
-#		define FALSE 0
+#		define FALSE	0
 #	endif
 #endif
 
