@@ -13,7 +13,7 @@ int main(void)
 	str_fout(strout,"fileC.txt");
 	str_fin(strin,"fileC.txt");
 	
-	printf("in: %s",strin);
+	printf("strin: %s",strin);
 	
 return 0;
 }
