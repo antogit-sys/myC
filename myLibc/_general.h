@@ -5,4 +5,4 @@
 #	define NEW(T)			(T*)malloc(sizeof(T))
 #endif
 
-#define pause()	while(!getchar())	//while(getchar()!='\n')
+#define cpause()	while(!getchar())	//while(getchar()!='\n')
