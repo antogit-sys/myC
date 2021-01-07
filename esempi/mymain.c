@@ -15,6 +15,8 @@ int main(void)
 		*(array+i)=i;
 		myprintf("%d",array[i]);
 	}
+	
 		
 return 0;
 }
+
