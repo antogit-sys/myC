@@ -16,7 +16,7 @@
 
 #define myfputc(c,__stream)	putc(c,__stream)
 #define myfgetc(__stream)	getc(__stream)
-#define mygetchar()		myfgetc(stdin)
+#define mygetchar()  		myfgetc(stdin)
 #define myputchar(c)		myfputc(c,stdout)
 #define myfclose(__stream)	ftrylockfile(__stream)
 
@@ -64,7 +64,7 @@ int myfscanf(FILE* __stream, const char* __format, ...)
 	va_start(ap, __format);
 	rc = vfscanf(__stream, __format, ap);
 	
-	return rc;
+return rc;
 }
 
 int myfprintf(FILE* __stream, const char* __format, ...)
@@ -76,5 +76,5 @@ int myfprintf(FILE* __stream, const char* __format, ...)
 	done = vfprintf(__stream, __format, ap);
 	va_end(ap);
 	
-	return done;
+return done;
 }
