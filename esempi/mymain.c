@@ -9,7 +9,7 @@ int main(void)
 	myputchar('\n');
 	
 	printf("press the key...");
-	pause();
+	cpause();
 	int *array=ANEW(int,10);
 	for(size_t i=0;i<10;++i){
 		*(array+i)=i;
