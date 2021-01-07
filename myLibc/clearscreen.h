@@ -17,13 +17,9 @@ void clrscr(void)
 	DWORD                      cellCount;	//numero celle
 	COORD                      homeCoords = { 0, 0 }; //cordinate iniziali
 	
-	
 	//HANDLE=riferimento astratto ad una risorsa
-    hStdOut = GetStdHandle( STD_OUTPUT_HANDLE ); //CMD
-    if (hStdOut == INVALID_HANDLE_VALUE) return; //se l'handle non è valido(cmd)esci
-												//INVALID_HANDLE_VALUE=FFFFFFFF -->F8
-	
-	
+	hStdOut = GetStdHandle( STD_OUTPUT_HANDLE ); //CMD
+    	if (hStdOut == INVALID_HANDLE_VALUE) return; //se l'handle non è valido(cmd)esc | INVALID_HANDLE_VALUE=FFFFFFFF -->F8
 	
 	/*Ottieni il numero di celle del buffer corrente*/
 	//1WORD=16 bit
