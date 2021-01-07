@@ -10,7 +10,7 @@ int main(void)
 	str_input(strout);
 	puts(strout);
 	str_fout(strout,"fileC.txt");
-	str_fin(strout,"fileC.txt");
+	str_fin(strin,"fileC.txt");
 	
 	printf("strin: %s",strin);
 	puts("press the key...");
