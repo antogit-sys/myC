@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "../myLibc/strundef.h"
 #include "../myLibc/_general.h"
+#include "../myLibc/clearscreen.h"
 int main(void)
 {
 	
@@ -13,11 +14,16 @@ int main(void)
 	str_fin(strin,"fileC.txt");
 	
 	printf("strin: %s",strin);
-	puts("press the key...");
+	puts("\npress the key...");
+	cpause();
+	clrscr();
+	puts("schermo pulito");
 	pause();
 	
 	
 return 0;
 }
+
+
 
 
