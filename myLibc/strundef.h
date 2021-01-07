@@ -38,7 +38,7 @@ return done;
 
 int str_fin(String s,const char* __namefile)
 {
-	//input riga iniziale
+	//input riga iniziale (no spazio)
 	
 	int done=0;
 	
