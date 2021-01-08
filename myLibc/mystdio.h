@@ -30,7 +30,7 @@
 #	define MYNULL			((void*)0)
 #endif
 
-int myprintf(const char* const __format,...)
+int myprintf(const char* __format,...)
 {
 	va_list ap;
 	int done;
@@ -43,7 +43,7 @@ int myprintf(const char* const __format,...)
 return done;
 }
 
-int myscanf(const char *__format,...)
+int myscanf(const char* __format,...)
 {
 	va_list ap;
 	int done;
