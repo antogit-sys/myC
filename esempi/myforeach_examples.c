@@ -3,7 +3,7 @@
 #include "../myLibc/_general.h"
 int main(void)
 {
-  int *v1=ANEW(int,10);
+	int *v1=ANEW(int,10);
 	int *v2=ANEW(int,10);
 	int v3[10];
 	
