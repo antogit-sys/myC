@@ -6,7 +6,10 @@
 #if __STDC_VERSION__ >= 199901L
 #	ifndef _MYSTDBOOL_H
 #		define _MYSTDBOOL_H
-#		include <stdint.h>
+#		ifndef _STDINT_H_
+#               	define _STDINT_H_
+#			include <stdint.h>
+#		endif		
 #		define _myBool int8_t 
 		typedef _myBool mybool;
 #		define TRUE	1
