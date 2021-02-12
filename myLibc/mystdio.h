@@ -14,7 +14,7 @@
 #	include <stdarg.h>
 #endif
 
-#if __cpluplus
+#if __cplusplus
 #	ifndef _LIBCPP_CSTDINT
 #		define _LIBCPP_CSTDINT
 #		include <cstdint>
