@@ -6,6 +6,7 @@
 #endif
 
 #define cpause()    while(!getchar())	//while(getchar()!='\n')
+#define MAX(a,b) (((a)>(b))?(a):(b))
 
 #define foreach(index, increment)    for(index-1; ++increment; )
 #define dim_array(v)                 (sizeof(v) / sizeof(v[0]))
