@@ -11,3 +11,14 @@
 #define foreach(index, increment)    for(index-1; ++increment; )
 #define dim_array(v)                 (sizeof(v) / sizeof(v[0]))
 #define	foreach_static_array(type, var, v)  foreach(type var=0, var<dim_array(v))
+
+const char* viewBoolean(bool n){
+	const char* done;
+	if(n == 0)
+		done = "False";
+	else if(n == 1)
+		done = "True";
+	else
+		done="<null>";
+	return done;
+}
