@@ -22,9 +22,11 @@
 #else
 #	ifndef _STDINT_H_
 #		define _STDINT_H_
-#		include <stdint.h>
+#		include "mystdint.h"
 #	endif
 #endif
+
+/*
 #if INTPTR_MAX == INT16_MAX
 	typedef unsigned short mysize_t ;
 #elif INTPTR_MAX == INT32_MAX
@@ -32,7 +34,7 @@
 #elif INTPTR_MAX == INT64_MAX
 	typedef unsigned long long mysize_t;
 #endif
-
+*/
 
 #define myfputc(c,__stream)	putc(c,__stream)
 #define myfgetc(__stream)	getc(__stream)
